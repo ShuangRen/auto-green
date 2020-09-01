@@ -1,6 +1,6 @@
 # auto-green
 
-[![Build Status](https://github.com/ShuangRen/auto-green/workflows/ci/badge.svg?branch=master)](https://github.com/justjavac/auto-green/actions)
+[![Build Status](https://github.com/ShuangRen/auto-green/workflows/ci/badge.svg?branch=master)](https://github.com/ShuangRen/auto-green/actions)
 
 自动保持 GitHub 提交状态常绿。
 
@@ -10,8 +10,8 @@
 
 - [新建](https://github.com/new) GitHub 仓库
 - 复制 `.github/workflows/ci.yml` 和 `keepchange.txt` 文件到你的仓库
-- 修改 `email`、`name` 和 `url`，在 [ci.yml 文件的第 19-21 行](https://github.com/justjavac/auto-green/blob/master/.github/workflows/ci.yml#L19-L21)
-- (可选) 你可以通过修改 [ci.yml 文件的第 8 行](https://github.com/justjavac/auto-green/blob/master/.github/workflows/ci.yml#L8)来调整频率
+- 修改 `email`、`name` 和 `url`，在 [ci.yml 文件的第 19-21 行](https://github.com/ShuangRen/auto-green/blob/master/.github/workflows/ci.yml#L19-L21)
+- (可选) 你可以通过修改 [ci.yml 文件的第 8 行](https://github.com/ShuangRen/auto-green/blob/master/.github/workflows/ci.yml#L8)来调整频率
 
 计划任务语法有 5 个字段，中间用空格分隔，每个字段代表一个时间单位。
 
@@ -38,4 +38,4 @@
 
 ## License
 
-[auto-green](https://github.com/justjavac/auto-green) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
+[auto-green](https://github.com/ShuangRen/auto-green) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
